@@ -22,6 +22,7 @@ const Login = () => {
     axios
       .post('http://localhost:5000/api/login', login)
       .then(res => {
+        console.log('POST request for login', res);
         localStorage.setItem('token', res.data.payload);
         history.push('/friends');
       })

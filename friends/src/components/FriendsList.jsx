@@ -17,6 +17,7 @@ const FriendsList = () => {
     axiosWithAuth()
     .get('http://localhost:5000/api/friends')
     .then(res => {
+      console.log('GET request for friends', res);
       setFriends(res.data);
       setLoading(false);
     })
