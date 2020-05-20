@@ -1,0 +1,219 @@
+.App {
+  text-align: center;
+}
+
+nav {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 0 3rem;
+  font-size: 1.4rem;
+}
+
+nav a {
+  margin: 2rem;
+  text-decoration: none;
+  font-weight: bold;
+  color: black;
+}
+
+.logo {
+  font-size: 2.2rem;
+}
+
+.logo:hover {
+  color: royalblue;
+  cursor: pointer;
+}
+
+nav a:hover {
+  color: royalblue;
+  cursor: pointer;
+}
+
+.welcome {
+  font-size: 5.8rem;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+
+.welcome h1 {
+  margin: 0 auto;
+}
+
+.welcome button {
+  padding: 1rem 4rem;
+  border: none;
+  border-radius: 10px;
+  background-color: royalblue;
+  color: white;
+  font-size: 1.6rem;
+  font-weight: bold;
+}
+
+.welcome a {
+  color: white;
+  font-size: 1.6rem;
+  text-decoration: none;
+}
+
+.welcome button:hover {
+  background-color: rgb(34, 63, 152);
+  cursor: pointer;
+}
+
+
+.login {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-evenly;
+  align-items: center;
+}
+
+.login h1 {
+  font-size: 3.8rem;
+  color: royalblue;
+}
+
+.login input {
+  padding: 1rem 2rem;
+  margin: 1.4rem auto;
+  border: none;
+  border-radius: 10px;
+  background-color: rgb(149, 176, 255);
+  color: black;
+  font-size: 1.4rem;
+}
+
+.login button {
+  padding: 1rem 8.8rem;
+  margin: 1.4rem auto;
+  border: none;
+  border-radius: 10px;
+  background-color: royalblue;
+  color: white;
+  font-weight: bold;
+  font-size: 1.4rem;
+}
+
+.login button:hover {
+  background-color: rgb(34, 63, 152);
+  cursor: pointer;
+}
+
+.friend-form {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-evenly;
+  align-items: center;
+}
+
+.friend-form h1 {
+  font-size: 3rem;
+  color: royalblue;
+}
+
+.friends-title {
+  font-size: 3rem;
+  color: royalblue;
+  position: absolute;
+  top: 6.8rem;
+}
+
+.friend-form input {
+  padding: 1rem 2rem;
+  margin: 1.4rem auto;
+  border: none;
+  border-radius: 10px;
+  background-color: rgb(149, 176, 255);
+  color: black;
+  font-size: 1.4rem;
+}
+
+.friend-form button {
+  padding: 1rem 7rem;
+  margin: 1.4rem auto;
+  border: none;
+  border-radius: 10px;
+  background-color: royalblue;
+  color: white;
+  font-weight: bold;
+  font-size: 1.4rem;
+}
+
+.friend-form button:hover {
+  background-color: rgb(34, 63, 152);
+  cursor: pointer;
+}
+
+.friends-container {
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+}
+
+.list {
+  margin-top: 4rem;
+}
+
+.list-item a {
+  text-decoration: none;
+  color: black;
+}
+
+.list-item a:hover {
+  color: royalblue;
+  cursor: pointer;
+}
+
+.friend {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  width: 30%;
+  transform: translate(-50%, -50%);
+}
+
+.friend button {
+  padding: 1rem 7rem;
+  width: 300px;
+  margin: 2rem auto 1.4rem;
+  border: none;
+  border-radius: 10px;
+  background-color: royalblue;
+  color: white;
+  font-weight: bold;
+  font-size: 1.4rem;
+  display: block;
+}
+
+.friend button:hover {
+  background-color: rgb(34, 63, 152);
+  cursor: pointer;
+}
+
+.card {
+  border: 5px solid royalblue;
+  border-radius: 10px;
+  padding: 4rem 2rem;
+  margin: 0 auto;
+  text-align: left;
+}
+
+.card h1 {
+  color: royalblue;
+  font-size: 2.6rem;
+}
+
+.card h2 {
+  font-size: 2.4rem;
+  margin: 0;
+}
+
+.card h3 {
+  color: royalblue;
+  font-size: 1.4rem;
+  margin: 0 0 1rem;
+}
